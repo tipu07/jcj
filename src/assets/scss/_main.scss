@@ -53,7 +53,7 @@ header {
 		margin-top: 0.5rem;
 		@include trans;
 		@include ipad_sm {
-			@include pos;
+			@include pos($z: 5);
 			float: none;
 			margin: auto;
 			-webkit-box-pack: center;
@@ -262,7 +262,7 @@ footer {
 	position: relative;
 	background: $black2;
 	color: $light;
-	padding: 6rem 0;
+	padding: 8rem 0 6rem;
 	margin-top: auto;
 	overflow: hidden;
 	.contain {
@@ -271,7 +271,8 @@ footer {
 	a {
 		color: rgba($light, 0.7);
 		&:hover {
-			color: $color;
+			// color: $color;
+			color: $dark_gray;
 		}
 	}
 	.main_row {
@@ -332,7 +333,9 @@ footer {
 			text-align: center;
 		}
 		> a {
-			color: $color;
+			// color: $color;
+			color: $light;
+			text-decoration: underline;
 		}
 	}
 	.subscribe {
@@ -410,7 +413,8 @@ footer {
 			width: 3.6rem;
 			min-width: 3.6rem;
 			height: 3.6rem;
-			background: $color;
+			// background: $color;
+			background: rgba($light, 0.2);
 			padding: 1rem;
 			border-radius: 75%;
 			&:hover {
@@ -434,7 +438,7 @@ footer {
 	@include bg(cover);
 	padding: 0;
 	&:before {
-		@include overlay($black, 0.3);
+		@include overlay($black, 0.5);
 	}
 	.contain {
 		z-index: 3;
@@ -656,6 +660,9 @@ footer {
 	.content {
 		max-width: 70rem;
 		margin: 0 auto 4rem;
+	}
+	& + #folio {
+		padding-top: 4rem;
 	}
 }
 

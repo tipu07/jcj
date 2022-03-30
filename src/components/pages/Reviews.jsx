@@ -5,7 +5,7 @@ import ClientReviews from "./section/ClientReviews";
 function Reviews() {
 	const reviews = {
 		cover: {
-			sec_bg: "/images/services-2.jpg",
+			sec_bg: "/images/Organizing-a-Panel-Box.jpg",
 			heading: "Reviews",
 		},
 		review: {

@@ -7,7 +7,7 @@ import Team from "./section/Team";
 function About() {
 	const about = {
 		cover: {
-			sec_bg: "/images/services-2.jpg",
+			sec_bg: "/images/image-2.jpg",
 			heading: "Get to know us",
 			para: "Consulting is a corporate membership organization of management consulting firms which aims to support and strengthen its individual partners market position.",
 			btn: "Get a Call Back",
@@ -38,7 +38,7 @@ function About() {
 			],
 			btn: "Contact us",
 			btn_link: "/contact",
-			src: "/images/assets-N9JBSFN-1536x1025.jpg",
+			src: "/images/06628C88-4A17-45BF-A6F4-1987CA3B446C.jpg",
 		},
 		affiliate: {
 			heading: "How we",

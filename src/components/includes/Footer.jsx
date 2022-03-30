@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Newsletter from "./Newsletter";
+// import Newsletter from "./Newsletter";
 import SocialLinks from "./SocialLinks";
 
 function Footer() {
@@ -70,7 +70,7 @@ function Footer() {
 		<>
 			<footer>
 				<div className="contain">
-					<Newsletter />
+					{/* <Newsletter /> */}
 					<div className="flex_row main_row">
 						<div className="col">
 							<div className="in_col">

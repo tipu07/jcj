@@ -6,7 +6,7 @@ import Serve from "./section/Serve";
 function ServiceDetail() {
 	const detail = {
 		cover: {
-			sec_bg: "/images/services-2.jpg",
+			sec_bg: "/images/electrical-services-1536x643.jpg",
 			heading: "Service Detail",
 		},
 		service: {
@@ -39,7 +39,7 @@ function ServiceDetail() {
 					li: "Wiring and installation/upgrades",
 				},
 			],
-			src: "/images/services-1.jpg",
+			src: "/images/home-lighting-design-by-Robert-Singer.jpg",
 		},
 		serve: {
 			heading: "What service are ",
@@ -47,20 +47,20 @@ function ServiceDetail() {
 			block: [
 				{
 					id: 1,
-					src: "/images/services-1.jpg",
-					title: "Low Voltage Cabling",
+					src: "/images/091941261.jpg",
+					title: "Residential Lighting",
 					para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam beatae consectetur eum natus provident? Hic molestiae harum, labore pariatur, sapiente animi blanditiis, alias qui beatae illum quos veniam rem itaque.",
 				},
 				{
 					id: 2,
-					src: "/images/services-2.jpg",
+					src: "/images/65116BFA-5399-459C-90B8-79977F1B81D0-(1).jpg",
 					title: "Consult and Design",
 					para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla tenetur tempora a, placeat et reprehenderit recusandae! Minima quisquam sequi deserunt suscipit dolorem sint eos hic dolorum, exercitationem ad temporibus placeat.",
 				},
 				{
 					id: 3,
-					src: "/images/services-3.jpg",
-					title: "Cyber Security",
+					src: "/images/B0B07D63-D88C-496F-B54F-87A61408A5F5.jpg",
+					title: "Panel Replacements",
 					para: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum dolorum veniam mollitia facere officia doloribus vitae, pariatur nobis voluptates. Et iusto temporibus ullam odio harum! Soluta accusamus fuga beatae amet!",
 				},
 			],

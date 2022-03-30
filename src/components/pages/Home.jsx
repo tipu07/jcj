@@ -3,13 +3,13 @@ import Banner from "./section/Banner";
 import Intro from "./section/Intro";
 import Serve from "./section/Serve";
 import Choose from "./section/Choose";
-import Assets from "./section/Assets";
+// import Assets from "./section/Assets";
 import Folio from "./section/Folio";
 
 function Home(props) {
 	const home = {
 		banner: {
-			sec_bg: "/images/mainslide-03.jpg",
+			sec_bg: "/images/home-kitchen-lighting-3-compressor.jpg",
 			heading: "Trust Our Electrical Team With All Of Your Service Needs",
 			para: "We can light everything",
 			btn_01: "Learn More",
@@ -42,7 +42,7 @@ function Home(props) {
 			],
 			btn: "Learn More",
 			btn_link: "/about",
-			src: "/images/assets-N9JBSFN-1536x1025.jpg",
+			src: "/images/06628C88-4A17-45BF-A6F4-1987CA3B446C.jpg",
 		},
 		serve: {
 			heading: "What service are ",
@@ -50,20 +50,20 @@ function Home(props) {
 			block: [
 				{
 					id: 1,
-					src: "/images/services-1.jpg",
-					title: "Low Voltage Cabling",
+					src: "/images/091941261.jpg",
+					title: "Residential Lighting",
 					para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam beatae consectetur eum natus provident? Hic molestiae harum, labore pariatur, sapiente animi blanditiis, alias qui beatae illum quos veniam rem itaque.",
 				},
 				{
 					id: 2,
-					src: "/images/services-2.jpg",
+					src: "/images/65116BFA-5399-459C-90B8-79977F1B81D0-(1).jpg",
 					title: "Consult and Design",
 					para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla tenetur tempora a, placeat et reprehenderit recusandae! Minima quisquam sequi deserunt suscipit dolorem sint eos hic dolorum, exercitationem ad temporibus placeat.",
 				},
 				{
 					id: 3,
-					src: "/images/services-3.jpg",
-					title: "Cyber Security",
+					src: "/images/B0B07D63-D88C-496F-B54F-87A61408A5F5.jpg",
+					title: "Panel Replacements",
 					para: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum dolorum veniam mollitia facere officia doloribus vitae, pariatur nobis voluptates. Et iusto temporibus ullam odio harum! Soluta accusamus fuga beatae amet!",
 				},
 			],
@@ -151,7 +151,7 @@ function Home(props) {
 			<Intro data={home.intro} />
 			<Serve data={home.serve} />
 			<Choose data={home.choose} />
-			<Assets data={home.assets} show={props.popup} />
+			{/* <Assets data={home.assets} show={props.popup} /> */}
 			<Folio data={home.folio} />
 		</>
 	);
